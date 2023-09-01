@@ -8,52 +8,60 @@
   <!-- You can link additional CSS or other resources here -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
+<header>
+  <!-- nav-bar -->
+  <ul class="nav justify-content-center nav-underline custom-nav">
+    <li class="nav-item" >
+      <a class="nav-link active" aria-current="page" href="index.html" id="nav-item">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="about.html" id="nav-item">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="work.html" id="nav-item">Work</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="contact.html" id="nav-item">Contact</a>
+    </li>
+  </ul>
+</header>
 <body>
-  <header>
-    <!-- nav-bar -->
-    <ul class="nav justify-content-center nav-underline custom-nav">
-      <li class="nav-item" >
-        <a class="nav-link active" aria-current="page" href="/index.html" id="nav-item">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" id="nav-item">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/work.html" id="nav-item">Work</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" aria-disabled="true" id="nav-item">Contact</a>
-      </li>
-    </ul>
-  </header>
+
 <main>
   <div class="container d-flex justify-content-center">
     <h1 class="page-titles">Work</h1>
+    <br>
   </div>
 
   <div class="container-fluid bg-3 text-center">
-    <h3>Some of my Work</h3><br>
+    
     <div class="row">
       <div class="col-sm-3">
-        <div class="work-item">
-          <p>The Activty Game: <br /> This was my first ever project i completed at the State College of Florida. It is built with Vanilla Javascript, html, css. </p>
+        <a href="https://bcoop247.github.io/Activity_Game/" target="_blank">
+        <div class="container work-item">
+          <span id="project-title">The Activty Game</span><p>This was my first ever project i completed at the State College of Florida. It is built with Vanilla Javascript, html, css. </p>
         </div>
+        </a>
       </div>
+      <br>
       <div class="col-sm-3">
         <div class="work-item">
-          <p>World Golf Leaderboards: <br /> This was my second project completed at the State College of Florida. Built with a React framework and fetches from a web based API.</p>
+          <span id="project-title">World Golf Leaderboards (UNDER CONSTRUCTION)</span><p>This was my second project completed at the State College of Florida. Built with a React framework and fetches from a web based API.</p>
         </div>
       </div>
+      <br>
       <div class="col-sm-3">
         <div class="work-item">
-          <p>GearUP.com: <br /> This was my capstone project at the State College of Florida. Built with a React framework, express js to run the back end, and fetches from a a postgresSQL database</p>
+          <span id="project-title">GearUP.com (UNDER CONSTRUCTION)</span> <p> This was my capstone project at the State College of Florida. Built with a React framework, express js to run the back end, and fetches from a a postgresSQL database</p>
         </div>
       </div>
+      <br>
       <div class="col-sm-3">
         <div class="work-item">
-          <p>Some text..</p>
+          <p>Coming Soon...</p>
         </div>
       </div>
+      <br>
     </div>
   </div>
   </main>
