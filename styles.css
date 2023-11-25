@@ -19,6 +19,7 @@ background-image: linear-gradient(90deg, rgba(51,50,48,1) 0%, rgba(70,69,67,1) 5
 }
 #nav-item{
   color: white;
+  font-size: 20px;
 }
 #nav-item:hover{
   color: rgba(39, 201, 234, 0.851);
@@ -60,7 +61,7 @@ background-image: linear-gradient(90deg, rgba(51,50,48,1) 0%, rgba(70,69,67,1) 5
 #color-change-li{
   position: absolute;
   margin-right: 1000px;
-  margin-top: 5px;
+  margin-top: 10px;
   
 }
 #color-change-btn{
@@ -69,8 +70,22 @@ background-image: linear-gradient(90deg, rgba(51,50,48,1) 0%, rgba(70,69,67,1) 5
 }
 #linked-in-li{
   position: absolute;
-  margin-left: 100px;
+  margin-left: 1000px;
+  margin-top: 8px;
 }
+#follow-me-text{
+  color: rgba(39, 201, 234, 0.851);
+  position: absolute;
+  margin-left: 850px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+#github-li{
+  position: absolute;
+  margin-left: 1100px;
+ margin-bottom: 5px;
+}
+
 @media (max-width: 768px) {
   .work-item {
     padding: 10px; /* Adjust padding for smaller screens */
