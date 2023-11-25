@@ -11,3 +11,11 @@
 
     // Update the elapsed time every second
     const interval = setInterval(updateElapsedTime, 1000);
+
+    document.getElementById('color-change-btn').addEventListener('click', function() {
+      // Generate a random color for demonstration purposes
+      var randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+      
+      // Change the background color of the body
+      document.body.style.background = randomColor;
+    });
